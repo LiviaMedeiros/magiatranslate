@@ -12,8 +12,8 @@
 	branch = master
 [submodule "lib/untp"]
 	path = lib/untp
-	url = https://github.com/neobenedict/untp
-	branch = develop
+	url = https://github.com/LiviaMedeiros/untp
+	branch = py39
 [submodule "patches/images"]
 	path = patches/images
 	url = https://git.rayshift.io/kamihama/magia-client-image-patches
