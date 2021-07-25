@@ -4,6 +4,7 @@ import plistlib
 import ast
 from pathlib import Path
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + '/lib/untp/src/untp')
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + '/pydep')
 import untp
 from PyTexturePacker import Packer
 from shutil import copyfile

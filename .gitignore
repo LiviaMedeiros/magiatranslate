@@ -424,5 +424,6 @@ abiproxy/.ninja_log
 abiproxy/build.ninja
 lib/cocos_old/
 lib/Dobby_old/
+/pydep
 sign.bat
 sign.sh
