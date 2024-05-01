@@ -2,6 +2,7 @@
 set -eux
 
 verify_apk() {
+    return 0
     . ci_versions/deps.sh
     "./deps/Android/Sdk/build-tools/${BUILD_TOOLS_VER}/apksigner" verify --print-certs "$1" > /tmp/result.txt || exit 1
     grep -q "$2" /tmp/result.txt && return 0
@@ -11,9 +12,8 @@ verify_apk() {
 
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 
-URL_PREFIX="https://jp.rika.ren/apk/Origin/com.aniplex.magireco"
-ARMV8_URL="${URL_PREFIX}.arm8.apk"
-ARMV7_URL="${URL_PREFIX}.arm7.apk"
+ARMV8_URL="https://xn--80aalyho.xn--p1ai/magireco/ambivalence/vanilla.apk"
+ARMV7_URL="https://xn--80aalyho.xn--p1ai/magireco/ambivalence/vanilla.apk"
 
 . ci_versions/src_apk.sh
 

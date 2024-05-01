@@ -24,7 +24,7 @@ SRCAPK="${1:-${BASEDIR}/apk/vanilla.apk}"
 VERSION="${2:-v0.50}"
 NDK="${3:-${BASEDIR}/Android/Sdk/ndk/23.1.7779620}"
 FORCEOW="${4:-true}"
-TARCHS="${5:-"armeabi-v7a arm64-v8a"}"
+TARCHS="${5:-"arm64-v8a"}"
 
 RESULT="${BASEDIR}/build/io.kamihama.magiatranslate.${VERSION}.apk"
 
