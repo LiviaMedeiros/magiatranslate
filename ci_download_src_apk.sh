@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -eux
 
 verify_apk() {
     . ci_versions/deps.sh
