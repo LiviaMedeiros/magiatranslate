@@ -11,7 +11,7 @@ CURL="${MT_CURL:-curl}" # /usr/bin/curl
 JAVA="${MT_JAVA:-java}" # /usr/bin/java
 PYTHON="${MT_PYTHON:-python3}" # /usr/bin/python3.8
 NODEJS="${MT_NODEJS:-node}" # /usr/bin/node
-APKTOOL="${MT_APKTOOL:-apktool_2.6.0.jar}"
+APKTOOL="${MT_APKTOOL:-apktool_2.9.3.jar}"
 ZIPALIGN="${MT_ZIPALIGN:-zipalign}" # ~/android-sdk/build-tools/zipalign
 APKSIGNER="${MT_APKSIGNER:-apksigner}" # ~/android-sdk/build-tools/apksigner
 
@@ -99,6 +99,12 @@ _create() {
 	echo "Applying misc patches..."
 	# cp "${BASEDIR}/patches/images/story_ui_sprites00_patch.plist" "${BASEDIR}/build/app/assets/package/story/story_ui_sprites00.plist"
 	# cp "${BASEDIR}/patches/images/story_ui_sprites00_patch.png" "${BASEDIR}/build/app/assets/package/story/story_ui_sprites00.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ef_tap0.png" "${BASEDIR}/build/app/assets/package/tap/ef_tap0.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ic_launcher_foreground-mdpi.png" "${BASEDIR}/build/app/res/mipmap-mdpi/ic_launcher_background.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ic_launcher_foreground-hdpi.png" "${BASEDIR}/build/app/res/mipmap-hdpi/ic_launcher_background.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ic_launcher_foreground-xhdpi.png" "${BASEDIR}/build/app/res/mipmap-xhdpi/ic_launcher_background.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ic_launcher_foreground-xxhdpi.png" "${BASEDIR}/build/app/res/mipmap-xxhdpi/ic_launcher_background.png"
+	cp "${BASEDIR}/patches/shitoriegumo/ic_launcher_foreground-xxxhdpi.png" "${BASEDIR}/build/app/res/mipmap-xxxhdpi/ic_launcher_background.png"
 
 	cp "${BASEDIR}/patches/koruri-semibold.ttf" "${BASEDIR}/build/app/assets/fonts/koruri-semibold.ttf"
 

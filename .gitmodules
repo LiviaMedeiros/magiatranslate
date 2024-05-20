@@ -20,5 +20,5 @@
         branch = master
 [submodule "patches/magia-en-apk-assets"]
 	path = patches/magia-en-apk-assets
-	url = https://git.rayshift.io/kamihama/magia-en-apk-assets
+	url = https://git.rayshift.io/LiviaMedeiros/magia-en-apk-assets
         branch = master

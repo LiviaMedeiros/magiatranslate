@@ -13,7 +13,7 @@ jobs:
     if: github.ref == 'refs/heads/master'
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Grant execute permission
       run: chmod +x ./ci_check_for_update.sh
     - name: Check for update
@@ -32,7 +32,7 @@ jobs:
         git push origin "v${{ steps.check-for-update.outputs.latest-src-apk-ver }}-prerelease"
     - name: Trigger Android CI
       if: steps.check-for-update.outputs.new-version-available == 'true'
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
           github.rest.actions.createWorkflowDispatch({
