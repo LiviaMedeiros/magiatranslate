@@ -144,7 +144,7 @@ int *sceneLayerManagerCreateSceneLayer(uintptr_t *sceneLayerManager, BaseSceneLa
                 auto ver = rest.GetEndpointVersion();
                 if (MT_VERSION < ver) {
                     LOGI("Version update required.");
-                    auto updateMessage = string_format("A new version of MagiaTranslate is available, please update your app at kamihama.io. Continuing may result in crashes.\nApp version installed: %d\nApp version available: %d",
+                    auto updateMessage = string_format("A new version of MagiaTranslate is available, please update your app at totentanz.magica-us.com. Continuing may result in crashes.\nApp version installed: %d\nApp version available: %d",
                     MT_VERSION, ver);
                     displayMessage("MagiaTranslate Update", updateMessage.c_str());
                 }

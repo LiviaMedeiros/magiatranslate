@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "48695978581",
-    "firebase_url": "https://kamihama-io.firebaseio.com",
-    "project_id": "kamihama-io",
-    "storage_bucket": "kamihama-io.appspot.com"
+    "firebase_url": "https://firebase.magica-us.com",
+    "project_id": "totentanz",
+    "storage_bucket": "totentanz.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:48695978581:android:bc7cc007c2de2d0e79c2dc",
         "android_client_info": {
-          "package_name": "io.kamihama.magiatranslate"
+          "package_name": "com.magica-us.totentanz"
         }
       },
       "oauth_client": [

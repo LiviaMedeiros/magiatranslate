@@ -39,7 +39,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Magia Record ClearUI</string>
+    <string name="app_name">Totentanz</string>
     <string name="app_type">APP</string>
     <string name="build_type">RELEASE</string>
     <string name="cast_ad_label">Ad</string>
@@ -104,13 +104,13 @@
     <string name="default_web_client_id">48695978581-l3g2vae3su7td5tilbunf8fpb1875np4.apps.googleusercontent.com</string>
     <string name="fcm_channel_id">android_channel_id</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url">https://kamihama-io.firebaseio.com</string>
+    <string name="firebase_database_url">https://firebase.magica-us.com</string>
     <string name="gcm_defaultSenderId">48695978581</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="google_api_key">AIzaSyBlHoCTAsEa1zsIhKfE8nvMVewd0ULYmkw</string>
     <string name="google_app_id">1:48695978581:android:bc7cc007c2de2d0e79c2dc</string>
     <string name="google_crash_reporting_api_key">AIzaSyBlHoCTAsEa1zsIhKfE8nvMVewd0ULYmkw</string>
-    <string name="google_storage_bucket">kamihama-io.appspot.com</string>
+    <string name="google_storage_bucket">totentanz.appspot.com</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_cast_button_connected">Cast button. Connected</string>
     <string name="mr_cast_button_connecting">Cast button. Connecting</string>
