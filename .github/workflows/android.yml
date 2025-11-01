@@ -1,9 +1,6 @@
 name: Android CI
 
 on:
-  push:
-    branches: [ "master", "dev" ]
-    tags: [ "*" ]
   workflow_dispatch:
 
 jobs:
